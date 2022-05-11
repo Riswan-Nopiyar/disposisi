@@ -26,7 +26,7 @@ class Welcome extends CI_Controller {
 	}
 	public function about() {
 		
-		$this->load->view('about');
+		$this->load->view('admin/user/index.php');
 		}
 	public function profile() {
 				
