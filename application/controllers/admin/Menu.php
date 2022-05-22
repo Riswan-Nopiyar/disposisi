@@ -9,12 +9,12 @@ class Menu extends CI_Controller {
         );
         $this->load->view('template/main',$data);
     }
-    public function add() {
+ //   public function add() {
 		
-		$this->load->view('admin/user/add_form.php');
+	//	$this->load->view('admin/user/add_form.php');
 		}
-        public function edit() {
+       // public function edit() {
 		
-            $this->load->view('admin/user/edit_form.php');
-            }
+           // $this->load->view('admin/user/edit_form.php');
+           // }
 	}
